@@ -4,56 +4,64 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Arial", Helvetica, sans-serif;
 }
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  color: #FF5733;
+  }
+
+h2.chicken {
+  background-color: #85C1E9;
+  color:#2F4F4F;
 }
 
+h2.beef {
+  background-color: #FF7F50;
+  color:#FFD700;
+}
+
+h2.sushi {
+  background-color: #9370DB;
+  color:#E6E6FA;
+}
 h2 {
-  background-color: grey;
+  background-color: white;
   font-family: Helvetica;
-  color: white;
-  text-align: right;
-  width: 100px
+  text-align: center;
+  border: 2px solid darkgrey;
+  width: 95px;
+  float: right;
+  margin-top: 2px;
+  overflow: auto;
   }
+
+
+.container:hover, .container:active {
+  background-color: #FFFF00;
+  color: purple;
+  cursor: pointer;
+}
 
 .container {
-  background-color: grey;
+  background-color: snow;
   width: 95%;
-  height: 150px;
+  height: 180px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-  border: none;
-}
-
-#p1 {
-  background-color: #A52A2A;
-  position: relative;
-  text-align: center;
-  width: 60px;
-  border: 1px solid black;
+  border: 2px solid grey;
+  padding: 10px;
   }
 
-#p2 {
-  background-color: #DEB887;
-  text-align: right;
-  
-}
-#p3 {
-  background-color: #5F9EA0;
-  position: relative;
-  text-align: right;
-  
-}
-
 p {
-  color: white;
-
+  color: grey;
+  font-size: 16px;
+  clear: right;
   
 }
+
 
 /* Simple Responsive Framework. */
 .row {
