@@ -1,0 +1,88 @@
+/************************/
+
+
+/* Common style */
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+.menu {
+    text-align: center;
+    font-size: 2em;
+}
+.food-section {
+    background-color: #b3b3b3;
+    border: 1px solid #000000;
+    min-width: 150px;
+}
+.food-title1,
+.food-title2,
+.food-title3 {
+    margin: 0px;
+    float: right;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    font-size: 1.75em;
+}
+.food-title1 {
+    background-color: #cccc00;
+}
+.food-title2 {
+    background-color: #ff9900;
+}
+.food-title3 {
+    background-color: #cc6600;
+}
+.food-text {
+    clear: right;
+    padding-left: 5px;
+    font-size: 1.25em;
+}
+.food1,
+.food2,
+.food3 {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+/************************/
+
+
+/* Desktop version style (>= 992px)  */
+
+@media (min-width: 992px) {
+    .food1,
+    .food2,
+    .food3 {
+        width: 33.33%;
+    }
+}
+
+/* Tablet version style (>= 768px and <= 991px) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .food1,
+    .food2 {
+        width: 50%;
+    }
+    .food3 {
+        width: 100%;
+    }
+}
+
+/************************/
+
+
+/* Mobile version style (<= 767px) */
+
+@media (max-width: 767px) {
+    .food1,
+    .food2,
+    .food3 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+
+@charset "utf-8";
+/* CSS Document */
+/** HEADER **/
+#header-nav { 
+  background-color: #383838;
+  border-radius: 0;
+  border: 0;
+}
+h1 { FOO LLC name 
+  font-family: 'Dekko', cursive;
+  color: #ffab44;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #8c8b8a;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/* Body */
+body{
+	font-family: 'Dekko', cursive;
+	background:#F7F7F7;
+	
+}
+ 
+.col {
+	background-color: grey;
+	border-color: black;
+	border-width: 1px;
+	padding: 5px 10px 5px;
+	margin-top: 20px;
+}
+
+.col a {
+	color: white;
+}
